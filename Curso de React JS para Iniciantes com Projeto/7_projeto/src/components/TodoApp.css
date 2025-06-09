@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(49, 112, 44)
+}
+
+.empty-list {
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+
+.todo-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.todo-button {
+    background-color: rgb(49, 112, 44);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.todo-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
